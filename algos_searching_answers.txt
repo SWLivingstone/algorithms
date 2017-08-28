@@ -1,0 +1,38 @@
+PART 1:
+
+1.
+  7
+2.
+  3
+3.
+  fib(0) = 0
+  fib(1) = 1
+  fib(2) = fib(1) + fib(0) = 1 + 0 = 1
+  fib(3) = fib(2) + fib(1) = 1 + 1 = 2
+  fib(4) = fib(3) + fib(2) = 2 + 1 = 3
+  fib(5) = fib(4) + fib(3) = 3 + 2 = 5
+  fib(6) = fib(5) + fib(4) = 5 + 3 = 8
+  fib(7) = fib(6) + fib(5) = 8 + 5 = 13
+  fib(8) = fib(7) + fib(6) = 13 + 8 = 21
+  fib(9) = fib(8) + fib(7) = 21 + 13 = 34
+  fib(10) = fib(9) + fib(8) = 34 + 21 = 55
+  fib(11) = fib(10) + fib(9) = 55 + 34 = 89
+  fib(12) = fib(11) + fib(10) = 89 + 55 = 144
+
+Speed compare fib(20) recurisve to iterative:
+
+  When running fib(20) the difference in speed
+  between the two functions is not significant
+  but if n is increased, say to 40, the recursive
+  algorithm takes far longer.
+
+1. I would use an iterative linear search as
+a binary search is impossible with an unsorted
+collection as well iterative runs much faster
+for a large data set than recursion - atleast in
+ruby.
+
+2. I would use an iterative binary search because
+with a sorted collection binary is faster than
+linear and once again iterative is more performant
+than recursive in ruby.
