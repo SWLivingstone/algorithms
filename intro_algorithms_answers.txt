@@ -1,0 +1,40 @@
+Question 1:
+
+  -Calcualting a tip
+
+  DEF Calculate_tip(total_cost_of_meal)
+    SET tip_amount to total_cost_of_meal * .15
+    return tip_amount + total_cost_of_meal
+  END DEF
+
+  -Determing what to wear
+
+  DEF What_to_wear(day_of_week, weather)
+    IF day_of_week equals monday-friday
+      wear work cloths
+    ELSE
+      wear sweatpants
+    END IF
+    IF weather equals rain or cold
+      wear jacket
+    END IF
+  END DEF
+
+  -Making Coffee
+
+  DEF Make_coffee
+    IF water in coffee machine equals less than half full
+      Add_water_to_coffee_machine()
+    END IF
+    IF coffee and filter already in machine
+      Turn_on_coffee_machine()
+    ELSE IF used coffee and filter in machine
+      Clean_coffee_machine()
+    ELSE
+      add_filter_to_machine()
+      add_coffee_to_filter()
+    END IF
+    WHEN coffee pot equals full
+      pour_coffee()
+    END WHEN
+  END DEF
