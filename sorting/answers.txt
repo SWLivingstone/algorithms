@@ -1,0 +1,27 @@
+I used a randomly generated array for the purpose of
+testing my sorting algorithms so my findings may not
+differant if I had been using semi-sorted data or some
+form of logical user input.
+
+I am surprised to see how well bubble sort works.  I suppose
+because it is iterative and rather simple it runs quite fast -
+atleast for a small array (only 50 items).
+
+The course material described merge sort as being more effecient
+than selection and insertion sort however my tests show insertion
+and selection to be more than twice as fast.  My guess is that
+Merge sort uses recursion where as insertion and selection use
+iteration.
+
+Heap sort took the longest by far to run.  This could be because of the way
+I implimented the heap.  Some forms of heap sort store the heap in the same array
+that is being sorted.  I chose to store the heap in nodes which likely requires
+more resources than mainting a single array.
+
+Bucket sort was very fast.  I think this is because my version of bucket sort
+uses iteration instead of recursion.  Bucket sort is possible to write using recursion
+but I imagine that it would be much slower.
+
+If I were to pick one for sorting a large random data set I would chose bubble sort
+as it is easy to impliment and runs fast.  I suppose that it is possible for certain
+data sets to have a long run time with bubble sort but for random it works quite well.
