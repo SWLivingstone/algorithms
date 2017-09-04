@@ -1,0 +1,26 @@
+1. An algorithm of complexity O(1) is a jet plane
+and an algorith of complexity O(2^n) is a hot air balloon.
+
+2. The best case performance for Binary Search is
+constant time.  That would be if the first index
+examend containted the searched for item.
+
+3. The worst case performance for Binary Search is
+logarithmic.  That would be if the final index searched
+contained the searched for item.
+
+4. The bounded case is logarithmic.
+
+5. See graph 1
+
+  6. Infinity
+
+  7. 0(log n)
+
+8 & 9:
+
+As we discussed I will be skipping these questions.
+
+10. O(log n)
+11. OMEGA(1)
+12. THETA(log n)
