@@ -1,0 +1,22 @@
+Version one:
+  0(n^2)
+  The original version uses insertion sort which relys on a loop with in
+  a loop.  Effectivly the function must loop through each item in the array
+  and then for each item it must loop through each item in the sorted array.
+  So, we have n loops * n loops which equals n^2.  Big-O = n^2
+
+Version two:
+  O(n log n)
+  I used quick sort as a method to improve time complexity.  Technically
+  the Big-O of quick sort is n^2 but the worst case required for that level
+  of time complexety is so rare that the Big-O for quick sort is practically
+  given as n log n
+
+Version three:
+  0(n^2)
+  I used bubble sort as a method to imporve space complexity as bubble
+  sort uses an in place method for sorting so its space complexity is
+  constant.  The time complexity of bubble sort is n^2 because once again
+  we have a single input and a loop with in a loop so that each item in
+  the array must be looked at and given its own loop looking through each
+  item in the array.  So, we have n loops * n loops which equals n^2.
